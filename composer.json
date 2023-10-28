@@ -29,12 +29,12 @@
     "require": {
         "php": "^8.0",
         "google/cloud-translate": "^1.2",
-        "illuminate/support": "9.*"
+        "illuminate/support": "9.*|^10.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
         "orchestra/testbench" : "7.*",
-        "phpunit/phpunit": "^9.0"
+        "phpunit/phpunit": "^9.0|^10.0"
     },
     "extra": {
         "laravel": {
@@ -49,6 +49,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
